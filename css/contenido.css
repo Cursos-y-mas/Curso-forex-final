@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+.titulo{
+  display: block;
+  margin: 0px 0px 0px 0px;
+  text-align: center;  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 20px;
+  color: black;
+  margin-left: -2%;
+
+}
+ 
+
+
+.texto-tablas{
+   
+   margin-top: 1%;
+   margin-left: 5%;
+   width: 40%;
+   border-radius: 6px;
+   color: black;
+   font-weight: 500;
+   padding: 20px;
+   background-image: radial-gradient(circle at 12.5% 12.5%, #e7b800 0, #e7b800 50%, #e7b800 100%);
+   
+}
+
+.texto-tablas-dos{
+    
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 5%;
+    border-radius: 6px;
+    color: black;
+    font-weight: 500;
+    padding: 20px;
+    background-image: radial-gradient(circle at 12.5% 12.5%, #e7b800 0, #e7b800 50%, #e7b800 100%);
+    
+    
+}
+.titulodos{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 30px;
+    margin-bottom: -2%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    color: black;
+    font-weight: 500;
+    padding: 20px;
+    
+    
+}
+.video-promo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.video-pr{
+   width: 50%;
+   padding: 30px;
+   margin-left: 23%;
+}
+/*320px*/
+@media screen and(max-width:320px) {
+   
+}
+/*411PX*/
+@media screen and (max-width:411px) {
+    .comprar-btn{
+        margin-left: -24%;
+        font-size: 15px;
+    }
+    .texto-tablas-dos{
+ 
+        width: 98%;
+        margin-left: 5%;
+    }
+    .texto-tablas{
+        width: 98%;
+        
+        margin-left: 5%;
+    }
+    .video-promo{
+        width: 100%;
+    }
+    .video-pr{
+        width: 90%;
+        margin-left: 6%;
+    }
+    .texto-compra{
+        width: 70%;
+    }
+    .precio{
+      
+        font-size: 18px;
+        width: 99%;
+        
+        
+    }
+   
+    .comprar-contenedor{
+       
+        width: 100%;
+        
+    }
+
+    .estefano-fin{
+        
+        width: 75%;
+    }
+}
+/*414px*/
+@media screen and (max-width:414px){
+    .texto-tablas{
+        width: 90%;
+    }
+    .texto-tablas-dos{
+        width: 90%;
+    }
+    .video-promo{
+        width: 100%;
+    }
+    .video-pr{
+        width: 90%;
+        margin-left: 6%;
+    }
+    .texto-compra{
+        width: 70%;
+    }
+    .precio{
+      
+        font-size: 18px;
+        width: 99%;
+        
+        
+    }
+   
+    .comprar-contenedor{
+       
+        width: 100%;
+        
+    }
+
+    .estefano-fin{
+        
+        width: 75%;
+    }
+}
+/*375*/
+@media screen and (max-width:375px) {
+    .texto-tablas{
+        width: 97.5%;
+    }
+    .texto-tablas-dos{
+        width: 97.5%;
+    }
+}
+/*360px*/
+@media screen and (max-width:360px) {
+    .video-promo{
+        width: 100%;
+    }
+    .video-pr{
+        width: 95%;
+        margin-left: 3%;
+    }
+    .titulodos{
+        font-size: 25px;
+        margin-left: 1%;
+    }
+    .texto-tablas{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .texto-tablas{
+        width: 97.5%;
+        margin-left: 2%;
+        font-size: 14px;
+    }
+    .texto-tablas-dos{
+        width: 97.5%;
+        margin-left: 2%;
+        font-size: 14px;
+    }
+    .estefano-fin{
+        width: 60%;
+    }
+    .texto-este-fano{
+        font-size: 12px;
+    }
+    .comprar-btn{
+        margin-left: -26%;
+        font-size: 15px;
+    }
+    .texto-compra{
+        width: 70%;
+    }
+    .precio{
+      
+        font-size: 18px;
+        width: 99%;
+        
+        
+    }
+   
+    .comprar-contenedor{
+       
+        width: 100%;
+        
+    }
+}
+
+
+
+    
+
+.contenedor-uno{
+    /*background-image: radial-gradient(circle at 50% 29%, #77757d 0, #76747c 50%, #75737b 100%);*/
+    padding: 50px;
+    /*background-image: radial-gradient(circle at 50% -20.71%, #939399 0, #939399 50%, #939399 100%);*/
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+    
+
+    
+}
+.texto-cuadrado{
+    width:30%;
+    height: 20%;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 43px;
+   
+}
+.video-main{
+    width: 300px;
+    margin-left: 40px; 
+    padding: 10px;
+    
+  
+}
+.video-main:hover {filter: saturate(180%);}
+
+/*Modal*/
+.boton-modal{
+    padding: 40px;
+    /*background-color:  radial-gradient(circle at 50% 29%, #c9c9c9 0, #c7c7c8 50%, #c5c5c7 100%);*/
+}
+.boton-modal label{
+    padding: 10px 15px;
+    background-image: linear-gradient(135deg, #d9b832 0, #d9b832 50%, #d9b832 100%);
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.boton-modal label:hover{
+    background-image: linear-gradient(135deg, #daaf04 0, #daaf04 50%, #daaf04 100%);
+}
+/*:::Fin Boton-Modal:::*/
+
+/*:::Ventana Modal:::*/
+#btn-modal{
+    display: none;
+}
+.container-modal{
+    width: 100%;
+    height: 100vh;
+  
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 100;
+}
+#btn-modal:checked ~ .container-modal{
+    display: flex;
+}
+.content-modal{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-modal h2{
+    margin-bottom: 15px;
+}
+.content-modal p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-modal .btn-cerrar{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-modal .btn-cerrar label{
+    padding: 7px 10px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-modal .btn-cerrar label:hover{
+    background-color:#185E83;
+}
+.cerrar-modal{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+@media screen and (max-width:800px) {
+    .content-modal{
+        width: 90%;
+    }
+}
+/*:::Fin Ventana Modal:::*/
+
+
+/*Estefano*/
+
+.mostrar-mas{
+    margin-top: -3%;
+   
+    text-align: center;
+    display: block;
+}
+/**/
+.comprar-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:  30px;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    
+}
+.precio-num{
+    color: goldenrod;
+}
+.comprar-btn{
+    background-color: goldenrod;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    
+    text-align: center;
+    font-weight: 900;
+}
+.texto-compra{
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin-left: 17%;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    flex-wrap: wrap;
+    
+    
+}
+.precio{
+    margin-left: 2%;
+}
+.a-btn{
+    margin-left: 36%;
+}
+.img-estefano{
+  margin-top: 5px;
+  margin-left: 32%;  
+    
+}
+.estefano-img{
+    margin-left: 26%;
+    border-radius: 6px;
+}
+
+.texto-estefano{
+    text-align: center;
+    
+}
+.estefano-tema{
+    font-weight: 900;
+}
+.negrita-numero{
+    font-weight: 700;
+}
+.oferta-img{
+width: 140px;
+}
+.responsive-estefano{
+display: flex;
+flex-wrap: wrap;
+}
+#color-estrella{
+ margin-left: 3px; 
+ color: #e7b800; 
+}
+/*Fondos*/
+.fondo-final1{
+    margin: 20px;
+    border-radius: 6px;
+    background-image: radial-gradient(circle at 87.5% 12.5%, #0a7ca8 0, #0a7ca8 50%, #0a7ca8 100%);
+}
+.fondo-final2{
+    margin: 20px;
+    border-radius: 6px;
+    background-image: radial-gradient(circle at 87.5% 12.5%, #0a7ca8 0, #0a7ca8 50%, #0a7ca8 100%);
+}
+
+
+/**/
+.estefano-fin{
+margin: 20px;
+
+text-align: center;
+padding: 10px;
+}
+.instructor{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  margin-left: 100px;
+}
+.color-estefano{
+    color: #9b9b9b;
+    margin-left: 2px;
+
+
+}
+.imagen-final-estefano{
+    padding: 5px;
+   
+   width: 170px;
+   border-radius: 6px;
+   margin-left: 42%;
+    
+}
+
+
+
